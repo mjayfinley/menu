@@ -19,17 +19,23 @@
       </div>
     </div>
 
-    <div class="dropdown" id=dropDownMenu>
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Choose Course
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a id="starterDropDown" class="dropdown-item" href="starters.html">Starters</a>
-        <a id="entreeDropDown" class="dropdown-item" href="entrees.html">Entrees</a>
-        <a id="dessertsDropDown" class="dropdown-item" href="desserts.html">Desserts</a>
-        <a id="homeDropDown" class="dropdown-item" href="index.html">Home</a>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button id="fullMenuButton" type="button" class="btn btn-secondary">Full Menu</button>
+        <button id="startersMenuButton" type="button" class="btn btn-secondary">Starters</button>
+        <button id="entreesMenuButton" type="button" class="btn btn-secondary">Entrees</button>
+        <button id="dessertsMenuButton" type="button" class="btn btn-secondary">Desserts</button>
       </div>
     </div>
+
+    <div id="menuTitle">
+    </div>
+
+    <div id="menuItems">
+      <ul id="listItems">
+      </ul>
+    </div>
+
 
 
 
@@ -40,9 +46,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="dishes.js"></script>
-    <script src="starters.js"></script>
-    <script src="entrees.js"></script>
-    <script src="desserts.js"></script>
+    <script src="filter.js"></script>
 
   </body>
 </html>
