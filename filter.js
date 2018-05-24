@@ -57,23 +57,3 @@ entreesMenuButton.addEventListener('click',function(){
 dessertsMenuButton.addEventListener('click',function(){
   filterMenu("Desserts")
 })
-
-/*
-function filterMenu(menu) {
-  listItems.innerHTML = ''
-  dishes.forEach(function(dish) {
-    if (menu != '') {
-      if (dish.course == menu) {
-        let liItem = `<li>
-                        <img src="${name.imageURL}">
-                        <label>${name.title}</label>
-                        <p>${name.description}</p>
-                        <p>$${name.price}</p>
-                      </li>`
-
-        listItems.innerHTML += liItem
-      }
-    }
-  })
-}
-*/
